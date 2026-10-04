@@ -43,6 +43,8 @@ Tech Lead  с 19-летним коммерческим опытом разраб
 * OriaAI (https://github.com/Reider85/OriaAI) — OriaAI — LLM Client на Python с инфраструктурой Redis/MinIO/Vault, безопасным хранением и forensic logging, PII detection, cancellation механизмом и observability для AI-агентов.
 * OriaHS (https://github.com/Reider85/OriaHS) — MVP гибридного поиска на Python: лексический поиск PostgreSQL + pg_trgm/tsvector и векторный поиск Qdrant + bge-m3, dual-write и outbox-восстановление.
 * OryaObservability (https://github.com/Reider85/OryaObservability) — проект observability для AI-агентов с отдельными компонентами агентской наблюдаемости, аналитики, инфраструктуры и тестирования.
+* OryaSecurity (https://github.com/Reider85/OryaSecurity) — MVP LLM Security Scanner с inline-инспекцией prompt/response через Reverse Proxy, двухуровневым Fast/Slow Detection Pipeline, Rule Engine, Vector Search (Qdrant) и ML-классификацией (DeBERTa/ONNX); Policy Decision Point на OPA, PII/Secret Redaction через Vault, tamper-evident Audit на Hashchain/WORM, Threat Intelligence, Streaming Inspection, Multi-tenancy, Circuit Breaker и Observability.
+
 
 ### Технологии и инструменты
 
